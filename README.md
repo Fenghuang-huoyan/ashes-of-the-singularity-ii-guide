@@ -26,6 +26,6 @@ Node 22. The build is a static Astro site (`dist/`). `astro.config.mjs` sets `si
 | Content | `content/ashes/` | Guide pages and JSON |
 | Routes | `src/pages/` | Home, guide slug, 404 |
 
-`analytics.gaId` is empty, so the base layout does not load Google Analytics. The ad slot does not render. See [ADS.md](ADS.md).
+`analytics.gaId` is `G-CJ1920QPM9`, so the base layout loads GA4 on content pages. The ad slot does not render. See [ADS.md](ADS.md).
 
 Steam art lives in `public/images/official/steam/` with `ATTRIBUTION.txt`. This repository does not buy a domain, edit DNS, or deploy. Vercel can serve the static `dist/` output.

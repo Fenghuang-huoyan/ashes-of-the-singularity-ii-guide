@@ -21,7 +21,7 @@ export const siteConfig = {
   homeDescription:
     'Unofficial English guide to Ashes of the Singularity II (Steam AppID 3499790). Oxide Games and Stardock Entertainment, release 10 Nov 2026, three factions, Turinium, and regions. Not affiliated with the developers or Valve.',
   analytics: {
-    gaId: '',
+    gaId: 'G-CJ1920QPM9',
   },
   art: {
     hero: '/images/official/steam/library-hero.jpg',
