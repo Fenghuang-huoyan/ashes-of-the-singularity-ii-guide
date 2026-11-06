@@ -1,0 +1,60 @@
+Official Steam store assets for Ashes of the Singularity II (AppID 3499790).
+Self-hosted so the wiki does not hotlink the Steam CDN at page-view time.
+The bytes were downloaded from the Steam store CDN on 6 Nov 2026.
+Fan site: not affiliated with Oxide Games, Stardock Entertainment, Valve, or Steam.
+Store page: https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/
+
+library-hero.jpg
+  Steam library hero, 1920x620
+  https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/library_hero.jpg
+
+library-hero-2x.jpg
+  Steam library hero, 3840x1240
+  https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/library_hero_2x.jpg
+
+library_header.jpg
+  The unhashed library_header.jpg URL returned HTTP 404 on 6 Nov 2026.
+  It is not included. The 460x215 store header below is a separate file.
+
+header.jpg
+  Classic store header, 460x215 (hashed path; the unhashed header.jpg URL 404s)
+  https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/0c833c880e8edbf2f798c92f065ec991cd962a65/header.jpg?t=1793916066
+
+capsule-616x353.jpg
+  Store capsule, 616x353 (hashed path)
+  https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/5fa6b61b07ed6408c67af18fbabe8e4ece3222a5/capsule_616x353.jpg?t=1793916066
+
+capsule-231x87.jpg
+  Small store capsule, 231x87 (hashed path from appdetails)
+  https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/9b9f8e8896417ae73ee60cffc30b069864163878/capsule_231x87.jpg?t=1793916066
+
+Screenshots are the 600x338 store thumbnails from appdetails on 6 Nov 2026 (t=1793916066).
+Full-size 1920x1080 files exist at the same paths with .1920x1080.jpg. This site stores the thumbnails.
+
+ss-00.jpg
+  Lava battlefield with a blue mech, a burning bipedal machine, and small blue units.
+  https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/3d71158e330e3abf3a2fd6c881ed2fd90ffc0a6a/ss_3d71158e330e3abf3a2fd6c881ed2fd90ffc0a6a.600x338.jpg?t=1793916066
+
+ss-01.jpg
+  Cliff battle between a blue force and a red force.
+  https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/5b8c6a60a51e8af0d07b079b0560ebeb74bf1470/ss_5b8c6a60a51e8af0d07b079b0560ebeb74bf1470.600x338.jpg?t=1793916066
+
+ss-02.jpg
+  Strategic map of colored regions and unit markers.
+  https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/33d29cfb548822240e71ba4a33863c86b8aefd9f/ss_33d29cfb548822240e71ba4a33863c86b8aefd9f.600x338.jpg?t=1793916066
+
+ss-03.jpg
+  Snow and rock battlefield with green and blue forces.
+  https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/0811ee85adeeec72a34b600fcdd40d42196042eb/ss_0811ee85adeeec72a34b600fcdd40d42196042eb.600x338.jpg?t=1793916066
+
+ss-04.jpg
+  Snowy mountain pass with green aircraft and ground units.
+  https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/a8ba030f874fb5f2cc1e193fbb63df963044ad8c/ss_a8ba030f874fb5f2cc1e193fbb63df963044ad8c.600x338.jpg?t=1793916066
+
+ss-05.jpg
+  Zoomed-out command view with army labels over snowy terrain.
+  https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/cbc2d86bbf1d4d31e73c62f2b8588895492f48e6/ss_cbc2d86bbf1d4d31e73c62f2b8588895492f48e6.600x338.jpg?t=1793916066
+
+ss-06.jpg
+  Desert fight with blue and green units and explosions.
+  https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/71c82d5173d3557699fe5ea4129cd979b725ad28/ss_71c82d5173d3557699fe5ea4129cd979b725ad28.600x338.jpg?t=1793916066

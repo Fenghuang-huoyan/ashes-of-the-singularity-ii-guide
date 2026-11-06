@@ -1,0 +1,129 @@
+---
+title: "Ashes of the Singularity II Guide — Units, Resources & Counters"
+description: "Ashes of the Singularity II strategy overview: armies, regions, Turinium, Elerite, and how UEF, PHC, and Substrate are meant to counter each other. No invented stats."
+h1: "Ashes of the Singularity II strategy guide"
+section: "Guide"
+order: 1
+verifiedAgainst: "Steam appdetails and store page, 6 Nov 2026. Stardock and Oxide posts dated 6 Aug 2025, 3 Oct 2025, 21 Nov 2025, 3 Dec 2025, 30 Jan 2026, 4 Feb 2026, 16 Feb 2026, 26 Mar 2026, 24 Jun 2026, and 14 Oct 2026."
+quickAnswer:
+  - "Ashes of the Singularity II is Oxide Games’ large-scale RTS, published by Stardock Entertainment. Steam AppID 3499790 unlocks 10 November 2026. On 6 November 2026 it was still marked coming soon and Windows only."
+  - "You command armies, not a click-fest of single units. Official posts say every unit belongs to an army, factories fill that army from the nearest powered factory, and regions are how you fuel the war."
+  - "The named resources in Ashes II posts are Turinium and Elerite, plus baseline income for owning a region and a Quantum Archive that multiplies a region’s output. Per-second rates are not printed in the posts checked."
+  - "Counters, at the level Stardock has published: the United Earth Forces are weaker unit for unit and lean on numbers and infantry; the Post-Human Coalition fields fewer, costlier units; the Substrate regenerates shields and uses drone swarms. This is not a tier list."
+sources:
+  - label: "Steam store — Ashes of the Singularity II"
+    url: "https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/"
+  - label: "Welcome journal, 6 Aug 2025"
+    url: "https://www.ashesofthesingularity.com/article/537253/ashes-ii-dev-journal-1-welcome-to-ashes-of-the-singularity-ii"
+  - label: "Alpha preview, 21 Nov 2025"
+    url: "https://www.ashesofthesingularity.com/article/539651/ashes-ii-dev-journal-a-preview-of-internal-alpha-1"
+  - label: "Stardock FAQ, 3 Dec 2025"
+    url: "https://www.stardock.com/games/article/539682/frequently-asked-questions-for-ashes-of-the-singularity-ii"
+  - label: "Region resources, 24 Jun 2026"
+    url: "https://www.stardock.com/games/article/541888/ashes-ii-video-blog-region-resources"
+  - label: "Release announcement, 14 Oct 2026"
+    url: "https://www.stardock.com/games/article/542557/ashes-of-the-singularity-ii-release-date-announcement"
+related:
+  - href: "/factions"
+    label: "Factions"
+  - href: "/about"
+    label: "About"
+  - href: "/"
+    label: "Home"
+banner: "/images/official/steam/ss-02.jpg"
+bannerAlt: "Official Steam screenshot of a strategic map divided into colored regions with unit markers"
+---
+
+import Callout from '@framework/components/Callout.astro';
+
+This is the overview for **Ashes of the Singularity II** before the 10 November 2026 unlock. It stays at the level of armies, regions, resources, and faction roles. It does not invent hit points, damage, or a tier list. Named unit cards that an official post did print are on [Factions](/factions), with the post’s date attached.
+
+## What Steam says the game is
+
+The store short description calls it a massive RTS where you command vast armies for control of entire worlds. You pick the forces of Earth, the mechanical AI Substrate, or the Post-Human Coalition, in single player, cooperative multiplayer, or competitive multiplayer.
+
+The longer store text adds three modes:
+
+- **Campaign** — lead the United Earth Forces against Post-Human expansion and Substrate plans.
+- **Multiplayer** — PvP or co-op online.
+- **Instant Action** — pick a battlefield and fight computer opponents.
+
+Strategic Zoom is the store’s name for moving from orbit down to the front line. One store screenshot is a zoomed-out command view with army labels, which matches that pitch. The store also says success is planning and logistics, not reflexes, and that terrain can turn to or from **Turinium**.
+
+| Fact | Source on 6 Nov 2026 |
+| --- | --- |
+| Release | 10 Nov 2026. `coming_soon: true`. |
+| Developer / publisher | Oxide Games / Stardock Entertainment |
+| Price | `is_free: false`. `package_groups` was empty, so no number was published in that payload. The 14 Oct 2026 announcement says there is a launch discount and does not print the price. |
+| Platforms | Windows. Mac and Linux are false. |
+| Minimum | Windows 10 or 11, Ryzen 5 2400G or i5-8500, 8 GB RAM, RX 580 8GB or GTX 1660 6GB, DirectX 12, broadband, 50 GB. SSD recommended. |
+| Recommended | Ryzen 5 5600X or i5-11600K, 16 GB RAM, 6750 XT 8GB or RTX 3070 8GB, still 50 GB. |
+| Languages | 14 listed. Full audio is marked for English and Portuguese - Portugal. |
+| Controller | Partial Controller Support. |
+| Account | Stardock account optional, and it can link to Steam. Support URL: https://support.stardock.com/ |
+
+## Units and armies
+
+The 6 August 2025 welcome journal, by executive producer Brett, says bases are managed through **regions** rather than by babysitting workers, and that units belong to an **Army**. Armies are the control layer: you give the army an order, and the army carries it to the units inside it. The journal’s scale line is “hundreds” of units on screen as 3D models, and “big armies with hundreds of units.” The Steam page and the 14 October 2026 announcement say “thousands.” Both are official. They are not the same number, and this site does not pick a winner.
+
+The 21 November 2025 alpha preview, by Brad Wardell, is more specific about production:
+
+- Every unit belongs to an army. You reinforce from the army UI.
+- The army sends the order to your factories. The new unit first deploys from the **nearest factory** to that army, then joins the army. Rally points are automatic.
+- The map is split into regions with **power lines**. Cut a region off and that region’s factories lose power, so they stop supplying units.
+- Engineers are provided per region. You order the region; you do not hunt individual engineers.
+- A tech tree unlocks units. The preview contrasts that with the first game, where a specific building unlocked a unit.
+
+The 3 December 2025 FAQ adds that armies can replenish on their own and rally replacements to wherever the army is, and that you move production buildings and time strikes into an opponent’s regions. It also says the roster is new: the United Earth Forces are a new faction, and the PHC and Substrate keep some returning units, some refits, and some replacements. There are more ground troops than in the first game, including new tanks and mechs. **Which old units were cut is not listed.**
+
+<Callout kind="warn" title="No launch roster">
+Showcase videos exist for United Earth Forces and Substrate units. The article text under those videos does not print a full stat block. This page does not transcribe a video into fake numbers. The only printed health and damage figures found in the posts checked are the three PHC cards from 16 February 2026, and they are quoted on the factions page as pre-release cards.
+</Callout>
+
+## Resources
+
+Four official lines are safe to repeat. Rates are not.
+
+**Turinium.** The 6 August 2025 journal calls Turinium “the currency of intelligence” and says the three factions are at war over it. The store says terrain turns to or from Turinium as you fight. The 21 November 2025 preview describes the Moon’s surface being converted into Turinium, “a material that combines energy production and data-center capability,” and offers the analogy of a nanotech substance that handles computing and power. The [lore page](https://www.ashesofthesingularity.com/lore/theworld) uses the same idea: Turinium is deployable energy and computation. None of those pages print a victory-point total or an income per second.
+
+**Regions.** The welcome journal says you conquer regions to fuel and build, without micromanaging workers. The 24 June 2026 region-resources journal says you now earn **baseline resources just for owning a region**, that a **Quantum Archive** multiplies a region’s output, and that the richest ground is in the contested middle of the map. It does not print the baseline number or the multiplier.
+
+**Elerite.** The 4 February 2026 “Streaming Economy” video journal calls Elerite the second of the key resources and says it shapes mid and late game. The 30 January 2026 part 1 says spending resources matters as much as where you deploy forces, and does not name the first resource in the article text. The 3 October 2025 design journal, still framed as “current thinking,” says Radioactives are officially called Elerite and sketches a rule that a building which needs Elerite unlocks after you have built an Elerite Refinery. Treat the refinery gate as a design note from October 2025, not as a rule confirmed on the 6 November 2026 store page.
+
+<Callout kind="note" title="Do not paste the 2016 economy onto this game">
+The public gameplay page for Ashes of the Singularity: Escalation describes metal extractors, radioactives, quanta, and Turinium generators as victory points. That page is about the first game. Those rates are not restated here as Ashes of the Singularity II facts. A Quantum Archive is named in the June 2026 Ashes II journal. A quanta-per-second figure is not.
+</Callout>
+
+## Counters
+
+This is the overview Stardock has published. It is not a matchup chart and not a tier list.
+
+**Numbers against quality.** The 14 October 2026 announcement says the United Earth Forces are outmatched in technology and weaker unit for unit, and that they rely on large armies, disciplined infantry, and older military practice. The 3 December 2025 FAQ says PHC units are generally more expensive and more powerful, so the PHC does not “throw bodies” the way Earth forces do.
+
+**Drones against formations.** The same FAQ says Substrate “cannon fodder” is not infantry. Substrate drone swarms are “more like autonomous projectiles than individual units,” and the asymmetry is intentional. The 26 March 2026 Substrate reveal says Substrate shields regenerate on their own, without a repair downtime, and that drone swarms reward aggressive, constant pressure.
+
+**Supply against a forward factory.** The 21 November 2025 preview says a factory near the front deploys reinforcements quickly, and that cutting the region’s power line shuts that factory off. That is the published counter to a forward build: flank the supply, not only the army. It is a developer’s description of the alpha design. This site has not timed it in a launch client.
+
+What is **not** published in the posts checked: a rock-paper-scissors table, build-order timings, weapon DPS for the UEF or Substrate, or a statement that one faction is the strongest. The PHC reveal’s three numeric cards are quoted on [Factions](/factions) and flagged as pre-release.
+
+## Modes, maps, and limits
+
+From the 3 December 2025 FAQ, unless another date is named:
+
+- You do not need the first game. The campaign teaches the factions.
+- The launch campaign is told from the United Earth Forces and is also the tutorial. There is no separate training mode in that answer.
+- Offline play covers the campaign and skirmish against AI, including team games and free-for-alls.
+- Online co-op against AI is in. Extra co-op modes were still unannounced in that FAQ.
+- Empty multiplayer slots can be filled with AI.
+- Player cap at release is **8**, because networking is peer-to-peer. Larger server-based battles were a hope, not a launch feature.
+- Maps: procedural generation for skirmish and multiplayer, plus several prebuilt maps for competitive play. A map editor is not at launch.
+- Mouse and keyboard is the main control scheme (hotkeys, drag-select, control groups). Gamepad support is partial and aimed at portable PCs.
+- The simulation is deterministic, which the FAQ offers as the fix for the first game’s teleporting units.
+- Modding through game files is the aim. In-game mod support and a benchmark mode are post-launch hopes, not launch promises.
+- Orbital abilities return as a different roster. The FAQ does not list them.
+
+The 14 October 2026 announcement adds frozen lakes, mountain passes, and lava chasms as terrain, and says a Steam Next Fest demo and a September public multiplayer playtest already happened. Steam’s category list on 6 November 2026 includes single-player, online PvP, online co-op, achievements, cloud, family sharing, adjustable difficulty, save anytime, and playable without timed input.
+
+## What this page will not invent
+
+A price. A full build order. Metal-per-second from the 2016 game. A tier list. A redeem code. If the 10 November client prints a number this page does not have, the client is the newer source.
