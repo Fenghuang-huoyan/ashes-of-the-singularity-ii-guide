@@ -1,0 +1,38 @@
+[
+  {
+    "q": "When does Ashes of the Singularity II release?",
+    "a": "Steam’s release_date field on 6 November 2026 is 10 Nov 2026, with coming_soon true. Stardock’s 14 October 2026 announcement gives the same date. The store page that day showed no user reviews.",
+    "featured": true
+  },
+  {
+    "q": "Who develops and publishes it?",
+    "a": "The Steam appdetails payload lists developer Oxide Games and publisher Stardock Entertainment. The legal notice is copyright 2026 Stardock Entertainment and Oxide Games. This wiki is not affiliated with either of them, or with Valve.",
+    "featured": true
+  },
+  {
+    "q": "What factions are in Ashes of the Singularity II?",
+    "a": "Steam’s store text names three: the humans of the United Earth Forces, the Post-Human Coalition, and the AI Substrate. Campaign play is the United Earth Forces. Instant Action and multiplayer let you command any of the three. A full unit roster with launch stats is not on the store page.",
+    "featured": true
+  },
+  {
+    "q": "Is there a redeem code page?",
+    "a": "No. The Steam store page and the Stardock posts checked on 6 November 2026 do not publish a redeem-code program for this RTS. This site does not invent codes.",
+    "featured": true
+  },
+  {
+    "q": "Can I play on Mac or Linux?",
+    "a": "The Steam appdetails platforms field on 6 November 2026 lists Windows only. Minimum and recommended specs both say Windows 10 or 11, 64-bit."
+  },
+  {
+    "q": "What PC do I need?",
+    "a": "Steam’s minimum on 6 November 2026: Windows 10 or 11, AMD Ryzen 5 2400G or Intel i5-8500, 8 GB RAM, AMD RX 580 8GB or NVIDIA GTX 1660 6GB, DirectX 12, broadband, 50 GB, SSD recommended. Recommended: Ryzen 5 5600X or Core i5-11600K, 16 GB RAM, AMD 6750 XT 8GB or NVIDIA RTX 3070 8GB, still 50 GB."
+  },
+  {
+    "q": "Does a controller work?",
+    "a": "Steam lists Partial Controller Support. Stardock’s 3 December 2025 FAQ says mouse and keyboard is the primary test setup, with hotkeys and drag-select, and that gamepad support is aimed at portable PCs such as the Steam Deck. It is still described as a PC RTS."
+  },
+  {
+    "q": "Is this site official?",
+    "a": "No. ashesofthesingularityii.wiki is a fan guide. It is not affiliated with Oxide Games, Stardock Entertainment, Valve, or Steam. Account help goes to https://support.stardock.com/, which is the support URL on the Steam store page, not this wiki’s mailbox."
+  }
+]

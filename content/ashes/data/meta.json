@@ -1,0 +1,12 @@
+{
+  "release": "10 Nov 2026",
+  "price": "10 Nov 2026",
+  "priceNote": "Steam release date. appdetails on 6 Nov 2026 still marked the game coming soon. No public price was in that payload.",
+  "players": "8 players",
+  "playersNote": "Stardock FAQ, 3 Dec 2025: multiplayer max at release, peer-to-peer. Not a live player count.",
+  "reviews": "Windows",
+  "reviewsNote": "appdetails platforms on 6 Nov 2026: Windows only. Mac and Linux are false. The store page showed no user reviews.",
+  "modes": "3 factions",
+  "modesNote": "United Earth Forces, Post-Human Coalition, and AI Substrate. See the factions page.",
+  "platforms": "Windows"
+}
