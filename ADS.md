@@ -1,9 +1,9 @@
 # Ads — ashesofthesingularityii.wiki
 
-The Native Banner slot after Quick Answer is wired and **turned off**.
+The Native Banner slot after Quick Answer is wired and **turned on** for ashesofthesingularityii.wiki only.
 
-`sites/ashes/ads.config.ts` sets `enabled` to false. `afterQuickAnswer.id` and `scriptSrc` are empty strings. No zone key from another game is stored here. `resolveAdPlacement` therefore marks the slot inactive, and `AdSlot.astro` renders nothing. Adsterra remains off until Get Code arrives for this domain.
+`sites/ashes/ads.config.ts` sets `enabled` to true. `afterQuickAnswer.id` is `e0abcfd137a30161b563f15f410971d2`. `afterQuickAnswer.scriptSrc` is `https://bauval.org/21/e0abcfd137a30161b563f15f410971d2`. That zone is this domain only. No key from another game is stored here. `invokeBase` stays empty. The container id is `container-e0abcfd137a30161b563f15f410971d2`.
 
 `analytics.gaId` in `sites/ashes/site.config.ts` is `G-CJ1920QPM9`. The base layout loads GA4 `G-CJ1920QPM9` on content pages.
 
-Adult and sensitive categories stay off. Fill the zone only after Adsterra issues one for this domain.
+Adult and sensitive categories stay off. The 404 page does not render a slot.
